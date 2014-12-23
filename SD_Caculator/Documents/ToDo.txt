@@ -1,0 +1,6 @@
+﻿List of new features or omprovements:
+
+1. Currently the load dataset method is only for integers. It should be 
+	rewritten to handle doubles.
+2. All of the load dataset code is in the button click event and should be 
+	moved to a separate function.
