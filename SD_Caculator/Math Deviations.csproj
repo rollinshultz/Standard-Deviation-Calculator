@@ -80,6 +80,7 @@
   <ItemGroup>
     <Content Include="Documents\datasetLarge.txt" />
     <Content Include="Documents\Instructions.txt" />
+    <Content Include="Documents\ToDo.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
