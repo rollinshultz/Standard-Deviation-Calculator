@@ -66,7 +66,8 @@ namespace Math_Deviations
                 while (!reader.EndOfStream)
                 {
                     string line = reader.ReadLine();
-                    int[] numbers = line.Split(',').Select(n => int.Parse(n.Trim())).ToArray();
+                    //int[] numbers1 = line.Split(',').Select(n => int.Parse(n.Trim())).ToArray();
+                    double[] numbers = line.Split(',').Select(n => double.Parse(n.Trim())).ToArray();
 
                     //for each through array and call add function 
                     for (int i = 0; i < numbers.Length; i++)
