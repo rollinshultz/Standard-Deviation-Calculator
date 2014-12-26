@@ -40,7 +40,6 @@
             this.lblVariationDisplay = new System.Windows.Forms.Label();
             this.lblCountDisplay = new System.Windows.Forms.Label();
             this.lblVariance = new System.Windows.Forms.Label();
-            this.lblRunningSquares = new System.Windows.Forms.Label();
             this.btnLoad = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnClear = new System.Windows.Forms.Button();
@@ -180,18 +179,6 @@
             this.lblVariance.TabIndex = 14;
             this.lblVariance.Text = "Variance = ";
             // 
-            // lblRunningSquares
-            // 
-            this.lblRunningSquares.AutoSize = true;
-            this.lblRunningSquares.BackColor = System.Drawing.Color.Transparent;
-            this.lblRunningSquares.Font = new System.Drawing.Font("Vani", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRunningSquares.Location = new System.Drawing.Point(289, 249);
-            this.lblRunningSquares.MaximumSize = new System.Drawing.Size(150, 0);
-            this.lblRunningSquares.Name = "lblRunningSquares";
-            this.lblRunningSquares.Size = new System.Drawing.Size(54, 34);
-            this.lblRunningSquares.TabIndex = 15;
-            this.lblRunningSquares.Text = "###";
-            // 
             // btnLoad
             // 
             this.btnLoad.BackColor = System.Drawing.Color.DarkKhaki;
@@ -258,7 +245,6 @@
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLoad);
-            this.Controls.Add(this.lblRunningSquares);
             this.Controls.Add(this.lblVariance);
             this.Controls.Add(this.lblCountDisplay);
             this.Controls.Add(this.lblDeviationDisplay);
@@ -297,7 +283,6 @@
         private System.Windows.Forms.Label lblVariationDisplay;
         private System.Windows.Forms.Label lblCountDisplay;
         private System.Windows.Forms.Label lblVariance;
-        private System.Windows.Forms.Label lblRunningSquares;
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnClear;
