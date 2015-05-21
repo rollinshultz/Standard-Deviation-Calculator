@@ -1,0 +1,14 @@
+--BulletProof Designs--
+--copyright 2014--
+--The Standard Deviation Calculator--
+
+There are 2 ways to use this calculator.
+1. You can enter the dataset manually
+one number at a time. Enter a number in the textbox next to the ADD button. 
+when you are finished click the CALCULATE button and the results will appear
+in the bottom two fields.
+2. You can click the load button to select a csv file from a directory. Then as
+before click the CALCULATE button and see the results below.
+The app has been tested both ways. The .txt file used in the tests was of the 
+form: 2,3,5,3,1,2,3 It should also work with the form: 2, 3, 5, 4, 6 where the commas are 
+followed by a space. Currently the load dataset method is only for integers.
